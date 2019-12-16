@@ -1,0 +1,319 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+h1{
+	font-size: 80px;
+}
+header {
+	width: 100%;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	background: url("assets/index_slide01.jpg") no-repeat fixed center;
+	background-attachment: fixed;
+	color: white;
+	text-align: center;
+}
+.icono{
+	display: inline-block;
+	position: center;
+}
+.botom{
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: #33cccc;
+}
+.botom:hover{
+	background-color: #00e673;
+}
+nav{
+	background-color: #33cccc;
+	color: white;
+	padding:25px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 80%;
+}
+.barra-menu{
+		background-color: #33cccc;
+		margin-left: auto;
+		margin-right: auto;
+			}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	text-decoration: none;
+	margin-right: 5px;
+}
+nav ul li:hover{
+	color: black;
+}
+.subti{
+	display: inline-block;
+	overflow: none;
+	margin-right: 15px;
+}
+.menu{
+	float: right;
+	display: inline-block;
+	text-align: right;
+	overflow: none;
+}
+.barra{
+	display: inline-block;
+	width: 80%;
+	overflow: none;
+}
+.aboutw{
+	text-align: center;
+ 	justify-content: center;
+	position: center;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+.gris{
+	color: grey;
+	font-size: 10px;
+}
+.circu{
+	background-color: #33cccc;
+	display: inline-block;
+	text-align: right;
+	float: right;
+	margin: 0px;
+	width: 2%;
+	color: white;
+	border-radius: 100%;
+	padding: 5px;
+}
+.article.iz.spam{
+	color:"#33cccc"
+}
+.iz{
+	display: inline-block;
+	width: 49%
+}
+.about{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 35px;
+}
+.material-icons{
+	margin: 15px;
+}
+.der{
+	margin: auto;
+	display: inline-block;
+	float: none;
+	width: 49%
+}
+.der.p{
+	font-style: bold;
+}
+.ab{
+	width: 80%;
+	margin:auto;
+	clear: left;
+	position: center;
+}
+.contenedor{
+	width: 100%;
+	background-color: lightgrey;
+}
+
+.c54{
+	width: 54%;
+	padding: 5px;
+	background-color: #ffcc66;
+	color: white;
+	margin:5px 0px;
+}
+.c73{
+	width: 73%;
+	padding: 5px;
+	background-color: orange;
+	color: white;
+	margin:5px 0px;
+}
+.c87{
+	width: 87%;
+	padding: 5px;
+	background-color: #33ccff;
+	color: white;
+	margin:5px 0px;
+}
+.why{
+	line-height: 25px;
+	padding:20px;
+	padding-bottom: 0px;
+	color:white;
+	text-align: center;
+	background: url("assets/parallax_01.jpg") no-repeat fixed center;
+	background-attachment: fixed;
+	margin: 0px;
+	border:0px;
+}
+#minia{
+	margin-top: 25px;
+}
+.paginas{
+	width: 100%
+	margin:auto;
+	overflow: none;
+}
+.testimonios{
+	background-color: #595959;
+	padding: 40px;
+	color: lightgrey;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: none;
+}
+.roundy{
+	display: inline-block;
+	border-radius:50%;
+	margin:4px;
+}
+.parat{
+	width: 80%;
+	overflow: none;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.robert{
+	text-align: right;
+	display: inline-block;
+	width: 20%;
+	float: left;
+	margin: auto;
+	padding: 15px;
+	clear:right;
+	color: #33ccff;
+	overflow: none;
+}
+.parrafito{
+	border-left: grey solid 1px;
+	display: inline-table;
+	text-align: left;
+	color:lightgrey;
+	width: 70%;
+	float: left;
+	margin-left: 5px;
+	padding: 5px;
+
+}
+.articulos{
+	width: 60%;
+ 	margin-left: auto;
+  	margin-right: auto;	
+   display:flex;
+    justify-content: space-around;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+.art{
+	text-align: center;
+	display: inline-block;
+	width: 18%;
+ 	margin-left: auto;
+	 margin-right: auto;
+
+
+}
+.art p {
+	font-size: 10px;
+	color:grey;
+}
+.art h3{
+	font-size: 10px;
+}
+.art:hover {
+	color:#33ccff;
+}
+.newsbox{
+		background-color: #f2f2f2;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+	}
+.news{
+	width: 80%;
+	background-color: #f2f2f2;
+	text-align: center;
+	padding-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.titunews{
+	display: block;
+	padding: 30px;
+	line-height: 30px;
+}
+.entradas{
+	width: 80%;
+	margin: auto;
+	overflow: none;
+		  display:flex;
+    justify-content: space-around;
+}
+.ent{
+	display: inline-block;
+	width: 32%;
+	text-align: left;
+}
+.ent p{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 65%;
+}
+.contacto{
+	text-align: center;			
+	background-color: #00cccc;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 35px;
+	color: white;
+}
+.campo{
+	padding:10px;
+	display: inline-block;
+
+	background-color: white;
+	margin-bottom: 2px;
+
+}
+.mensaje{
+	padding:10px;
+	display: inline-block;
+
+	background-color: white;
+	margin-bottom: 2px;
+
+}
+
+footer{
+	padding:30px;
+	line-height: 20px;
+	text-align: center;
+}
+input{
+	border:none;
+	background-color: none;
+}
+.boton-negro{
+	padding:10px 40px;
+	display: inline-block;
+	background-color: black;
+	color:white;
+
+}
+.campo:hover{
+	background-color: #e6ffee;
+}
